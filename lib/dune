@@ -1,0 +1,4 @@
+(library
+ (name stb_image_resize)
+ (public_name stb_image_resize)
+ (libraries stb_image_resize.raw))

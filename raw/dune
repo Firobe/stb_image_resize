@@ -1,0 +1,23 @@
+(library
+ (name stb_image_resize_raw)
+ (public_name stb_image_resize.raw)
+ (flags
+  (:standard -w -9-27))
+ (foreign_stubs
+  (language c)
+  (names stb_image_resize))
+ (ctypes
+  (external_library_name stb_image_resize)
+  (headers
+   (preamble %{read:stb_image_resize.h}))
+  (build_flags_resolver
+   (vendored
+    (c_flags :standard)
+    (c_library_flags :standard)))
+  (type_description
+   (instance Type)
+   (functor Type_description))
+  (function_description
+   (instance Function)
+   (functor Function_description))
+  (generated_entry_point C)))
