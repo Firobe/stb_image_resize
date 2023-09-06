@@ -4,6 +4,7 @@ synopsis: "Bindings to stb's image resizing library"
 description: "Bindings to stb's image resizing library"
 depends: [
   "ctypes"
+  "ctypes" {< "0.21.0"}
   "dune" {>= "3.6" & build}
   "odoc" {with-doc}
 ]

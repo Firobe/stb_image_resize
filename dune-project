@@ -11,4 +11,5 @@
   (description "Bindings to stb's image resizing library")
   (depends
     ctypes
+    (ctypes (< 0.21.0))
     (dune :build)))

@@ -1,6 +1,7 @@
 (library
  (name stb_image_resize_raw)
  (public_name stb_image_resize.raw)
+ (libraries ctypes.stubs)
  (flags
   (:standard -w -9-27))
  (foreign_stubs
