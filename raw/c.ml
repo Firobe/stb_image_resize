@@ -1,0 +1,3 @@
+module Type = Types_generated
+module Function = Function_description.Functions (Stb_image_resize__c_generated_functions__Function_description__Function)
+

@@ -1,0 +1,2 @@
+include Type_description.Types (Stb_image_resize__c_generated_types)
+
