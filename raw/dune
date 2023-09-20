@@ -3,7 +3,6 @@
  (public_name stb_image_resize.raw)
  (flags
   (:standard -w -9-27))
- (libraries ctypes)
  (foreign_stubs
   (language c)
-  (names stb_image_resize stb_image_resize__c_cout_generated_functions__Function_description__Function)))
+  (names stb_image_resize)))
